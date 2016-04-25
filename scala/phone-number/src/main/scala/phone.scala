@@ -1,29 +1,19 @@
-class PhoneNumber(rawNumber:String) {
+class PhoneNumber(input:String) {
 
-    def number : String = {
-        cleanNumber match {
-            case valid(num) => num
-            case _ => "0" * 10
-        }
+    private val validNumber = {
+        val separators = "\\D*"
+        val areaCode, localCode = "\\d{3}"
+        val personalCode = "\\d{4}"
+        s"^1?$separators($areaCode)$separators($localCode)$separators($personalCode)$$".r
+    }
+    
+
+    val (areaCode, localCode, personalCode) : (String, String, String) = input match {
+        case validNumber(areaCode, localCode, personalCode) => (areaCode, localCode, personalCode)
+        case _                                        => ("0" * 3, "0" * 3, "0" * 4)
     }
 
-    def areaCode : String = {
-        number.substring(0, 3)
-    }
+    val number : String = areaCode + localCode + personalCode
 
-    def exchangeCode : String = {
-        number.substring(3, 6)
-    }
-
-    def subscriberNumber : String = {
-        number.substring(6, 10)
-    }
-
-    override def toString : String = {
-        s"($areaCode) $exchangeCode-$subscriberNumber"
-    }
-
-    private val valid = """^1?(\d{10})$""".r
-
-    private val cleanNumber = rawNumber.replaceAll("""[^\d]""", "")
+    override def toString = s"($areaCode) $localCode-$personalCode"
 }

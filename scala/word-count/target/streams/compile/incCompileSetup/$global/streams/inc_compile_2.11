@@ -1,0 +1,113 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/Ben/exercism/scala/word-count/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+3 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> /Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase$$anonfun$wordCount$1.class
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> /Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase$$anonfun$wordCount$2.class
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> /Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase.class
+binary dependencies:
+2 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> /Users/Ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+3 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Phrase
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Phrase$$anonfun$wordCount$1
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Phrase$$anonfun$wordCount$2
+used names:
+29 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> +
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> <init>
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> AnyRef
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Array
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> ClassTag
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Int
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Map
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Phrase
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Predef
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> String
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> Unit
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> apply
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> canBuildFrom
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> collection
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> counts
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> filter
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> map
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> matches
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> materializeClassTag
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> mutable
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> package
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> phrase
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> refArrayOps
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> scala
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> split
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> toLowerCase
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> update
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> withDefaultValue
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> wordCount
+product stamps:
+3 items
+/Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase$$anonfun$wordCount$1.class -> lastModified(1453592142000)
+/Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase$$anonfun$wordCount$2.class -> lastModified(1453592142000)
+/Users/Ben/exercism/scala/word-count/target/scala-2.11/classes/Phrase.class -> lastModified(1453592142000)
+source stamps:
+1 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> hash(2994e354f8f9110400f6c8ac50f23f3449bff35e)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1444173647000)
+/Users/Ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1438617866000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/Ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.collection.mutable.Map
+internal apis:
+1 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAZnEGhAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGuvHgp0AAZub3RpZnlzcQB+AAzWzbDFdAAEd2FpdHNxAH4ADOMvZGJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMFb5M5nQABmVxdWFsc3NxAH4ADAmuT3Z0AAxhc0luc3RhbmNlT2ZzcQB+AAwGYYgndAAMc3luY2hyb25pemVkc3EAfgAMns38BHQADSRpc0luc3RhbmNlT2ZzcQB+AAySrWPmdAAJd29yZENvdW50c3EAfgAMBoq7Z3QABlBocmFzZXNxAH4ADHzpukB0AAlub3RpZnlBbGxzcQB+AAxM78ZFdAAMaXNJbnN0YW5jZU9mc3EAfgAMffMBnnQABjxpbml0PnNxAH4ADJiXdah0AAI9PXNxAH4ADLhktGh0AAVjbG9uZXNxAH4ADEPyFgt0AAh0b1N0cmluZ3NxAH4ADNd+34x0AAIhPXNxAH4ADBAoAXB0AAhnZXRDbGFzc3NxAH4ADNuubkJ0AAJuZXNxAH4ADOHH5B90AAJlcXNxAH4ADBYqV4h0AAIjI3NxAH4ADB7MSL50AAhmaW5hbGl6ZXNxAH4ADLd6qS50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAHNxAH4AWgBwc3EAfgBfdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBidAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB/dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCAc3EAfgBzdAADQW55c3EAfgB3c3EAfgB6dXEAfgB9AAAAAnNxAH4Af3QABXNjYWxhcQB+AIZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUnDXv5R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L1VzZXJzL0Jlbi9leGVyY2lzbS9zY2FsYS93b3JkLWNvdW50L3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQplONU+PkRBAD2yKxQ8j80Sb/zXg==
+external apis:
+0 items
+source infos:
+1 items
+/Users/Ben/exercism/scala/word-count/src/main/scala/word.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlJz81V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9CZW4vZXhlcmNpc20vc2NhbGEvd29yZC1jb3VudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlJ5Hpd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9CZW4vZXhlcmNpc20vc2NhbGEvd29yZC1jb3VudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUlJ8bPh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9CZW4vZXhlcmNpc20vc2NhbGEvd29yZC1jb3VudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUnDXv5R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9Vc2Vycy9CZW4vZXhlcmNpc20vc2NhbGEvd29yZC1jb3VudC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

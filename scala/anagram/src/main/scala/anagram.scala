@@ -1,14 +1,17 @@
 class Anagram(word:String) {
-    val loweredWord = word.toLowerCase
 
     def matches(words:Seq[String]) : Seq[String] = {
-        words.filter(x => isAnagram(x))
+        words.filter(isAnagram)
     }
 
-    private def isAnagram(anagram:String) : Boolean = isMatch(anagram) && notIdentical(anagram)
+    private val loweredWord = word.toLowerCase
 
-    private def isMatch(anagram:String) : Boolean = loweredWord.sorted == anagram.toLowerCase.sorted
+    private def isAnagram(anagram:String) : Boolean = {
+        val loweredAnagram = anagram.toLowerCase
+        
+        val isMatch = loweredWord.sorted == loweredAnagram.sorted
+        val notIdentical = loweredWord != loweredAnagram
 
-    private def notIdentical(anagram:String) : Boolean = loweredWord != anagram.toLowerCase
-
+        isMatch && notIdentical
+    }
 }
